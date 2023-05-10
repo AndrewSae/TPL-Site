@@ -1,0 +1,69 @@
+.line {
+    width: 75%;
+    height: 3px;
+    margin: auto;
+    margin-top: 15px;
+    background: linear-gradient(90deg, rgba(248, 3, 0, 1) 18%, rgba(7, 3, 240, 1) 54%);
+}
+
+.roundInfo {
+    font-size: 1.3rem;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.teamLogo>img {
+    width: 10rem;
+}
+
+.matchesContainer {
+    width: 100%;
+}
+
+.matchContainer {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-size: 1.2rem;
+}
+
+.matchTeams {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 15px;
+}
+
+.matchDate {
+    font-size: 1.1rem;
+    text-align: center;
+    margin-top: -1rem;
+}
+
+.matchesInfo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+}
+
+.matchType {
+    text-align: center;
+    font-size: 1.5rem;
+    text-decoration: underline;
+    text-align: center;
+    margin: 15px;
+}
+
+.teamContainer {}
+
+.teamName {
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+.middleText {
+    font-size: 1.4rem;
+}
