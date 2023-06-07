@@ -3,7 +3,7 @@
 session_start();
 
 $username = "admin";
-$password = "_2_1_3@AdMIN";
+$password = getenv('ADMIN_PASSWORD');
 
 if ($_POST['user'] == $username && $_POST['password'] === $password){
     $_SESSION["loggedIn"] = true;
