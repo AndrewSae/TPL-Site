@@ -1,69 +1,117 @@
 .line {
-    width: 75%;
-    height: 3px;
-    margin: auto;
-    margin-top: 15px;
-    background: linear-gradient(90deg, rgba(248, 3, 0, 1) 18%, rgba(7, 3, 240, 1) 54%);
+  width: 75%;
+  height: 3px;
+  margin: auto;
+  margin-top: 15px;
+  background: linear-gradient(
+    90deg,
+    rgba(248, 3, 0, 1) 18%,
+    rgba(7, 3, 240, 1) 54%
+  );
 }
 
 .roundInfo {
-    font-size: 1.3rem;
-    margin-left: 10px;
-    margin-top: 10px;
+  font-size: 1.3rem;
+  margin-left: 10px;
+  margin-top: 10px;
 }
 
-.teamLogo>img {
-    width: 10rem;
+.teamLogo {
+  width: 10rem;
+  height: 10rem;
+}
+.teamLogoTeam {
+  width: 10rem;
+  height: 10rem;
 }
 
 .matchesContainer {
-    width: 100%;
+  width: 100%;
 }
 
 .matchContainer {
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    font-size: 1.2rem;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  font-size: 1.2rem;
 }
 
 .matchTeams {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    align-items: center;
-    margin: 15px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 15px;
 }
 
 .matchDate {
-    font-size: 1.1rem;
-    text-align: center;
-    margin-top: -1rem;
+  font-size: 1.2rem;
+  text-align: center;
 }
 
 .matchesInfo {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: auto;
 }
 
 .matchType {
-    text-align: center;
-    font-size: 1.5rem;
-    text-decoration: underline;
-    text-align: center;
-    margin: 15px;
+  text-align: center;
+  font-size: 1.5rem;
+  text-decoration: underline;
+  text-align: center;
+  margin: 15px;
+}
+.teams {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.teamContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space;
+  text-align: center;
 }
 
-.teamContainer {}
-
 .teamName {
-    font-size: 1.2rem;
-    text-align: center;
+  font-size: 1.2rem;
+  text-align: center;
 }
 
 .middleText {
-    font-size: 1.4rem;
+  font-size: 1.4rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.pageTitle {
+  text-align: center;
+  font-size: 1.4rem;
+}
+
+.seasonContainer {
+  margin: auto;
+  margin-top: 20px;
+    width: 75%;
+  max-width: 600px;
+  padding: 10px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+
+}
+.seasonContainer < a {
+    font-size: 1.2rem;
+
+}
+.seasonNum {
+  font-size: 1.2rem;
 }

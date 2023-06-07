@@ -16,7 +16,7 @@
                         <a class="nav-link" aria-current="page" href="../../about.php">About</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="../../seasons.php">Seasons</a>
+                        <a class="nav-link" href="../../seasons/home.php">Seasons</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" target="_blank" href="./other_files/ruleBook.pdf" download="">Rule Book</a>
