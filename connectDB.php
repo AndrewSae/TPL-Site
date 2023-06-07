@@ -1,7 +1,7 @@
 <?php 
 
 function connectToDB() {
-  $database_url = "postgres://pwocrfzipdlbhd:3780a32fb31ce327299db560676145b8aadfaa4da3181302a20f80f6b6aaf672@ec2-44-206-204-65.compute-1.amazonaws.com:5432/d6hoj1cihbehma";
+  $database_url = getenv('DATABASE_URL');
   $db = parse_url($database_url);
   
   $host = $db["host"];
